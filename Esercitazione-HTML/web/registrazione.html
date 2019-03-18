@@ -15,6 +15,21 @@ and open the template in the editor.
         <meta name="description" content="Pagina della registrazione">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div><h1>Writing is easy! <a href="index.html">Or go back</a></div>
+        
+        <div>
+            <form action="index.html" method="post">
+                <label for="id_nomeutente">Nome: </label>
+                <input type="text" name="NomeUtente" id="id_nomeutente" value="Ponedi"/>
+                <br/>
+                <label for="id_username">Username: </label>
+                <input type="text" name="userName" id="id_username" value="username"/>
+                <br/>
+                <label for="id_password">Password: </label>
+                <input type="password" name="password" id="id_password" value="username"/>
+                <br/>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
     </body>
 </html>
