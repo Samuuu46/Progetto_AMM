@@ -13,19 +13,34 @@ and open the template in the editor.
         <meta name="author" content="Samuele Cau">
         <meta name="keywords" content="FPW, Progetto, Unica, HTML, Java, CSS">
         <meta name="description" content="Pagina della registrazione">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
-        <div><h1>Writing is easy! <a href="index.html">Or go back</a></div>
-        
-        <div>
+        <header>
+            <h1>Writing is easy! </h1>
+            <div id="logo">
+                <img title="scrittura" alt="Foto di matita che scrive" src="Img/scrittura_index.jpg" width="1000" height="563">
+
+            </div>
+        </header>
+        <nav>
+            <h2>Lista Pagine</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://google.com">Ti sei perso?</a></li>
+                        <li><a href="articoli.html">Articoli</a></li>
+                        <li><a href="registrazione.html">Registrazione</a></li>
+                    </ul>
+        </nav>
+        <main>
             <form action="index.html" method="post">
                 <label for="id_nomeutente">Nome: </label>
                 <input type="text" name="NomeUtente" id="id_nomeutente" value="Ponedi"/>
                 <br/>
-                <label for="id_username">Username: </label>
+                <label class="importante" for="id_username">Username: </label>
                 <input type="text" name="userName" id="id_username" value="username"/>
                 <br/>
-                <label for="id_password">Password: </label>
+                <label class="importante" for="id_password">Password: </label>
                 <input type="password" name="password" id="id_password" value="username"/>
                 <br/>
                 <label for="scrittore">Scrittore: </label>
@@ -47,9 +62,19 @@ and open the template in the editor.
                 <br/>
                 <input type="submit" value="Submit"/>
             </form>
-            
-            
-            
-        </div>
+            <div id="content">
+                <div>Prova_interna
+                </div>
+                <h2>Prova1</h2>
+                <h2>Prova2</h2>
+                <h2>Prova3</h2>
+                <h2>Prova4</h2>
+                <h2>Prova5</h2>
+
+            </div>
+        </main>
+        <footer>
+            Developed by Samuele Cau
+        </footer>
     </body>
 </html>
