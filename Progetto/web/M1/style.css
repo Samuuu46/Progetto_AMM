@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-apr-2019, 15.09.20
+    Author     : samu
+*/
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+}
+
+.c1, .c2, .c3, .c4 {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .c1 {
+    width: 25%;
+    
+  }
+
+  .c4 {
+    width: 75%;
+    
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
+  .title h1{
+        /*cerco di evitare bordi superiori*/
+        margin: 0;
+        padding: 0;
+        /*Titolo e font*/
+        font-family: 'Arbutus', cursive;
+        color: #24577B;
+        text-align: center;
+        line-height: 50px;
+        
+        
+       /*Sfondo*/
+        background-image: url('web3.jpg');
+        background-size: cover;
+        height: 100px;
+        position: relative;
+        
+       
+   }
+  
+ 
+   .c1 {
+       background-color: #65A5D1;
+    }
+    
+  
+
+.c2 ul {
+    
+  font-family: 'Lora', serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A64A4;
+}
+
+.c2 li {
+  float: left;
+}
+
+.c2 li a {
+  height: 72px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+  line-height: 72px;
+}
+
+/* Cambia il colore del link da #0A64A4 (black) on hover */
+.c2 li a:hover {
+  background-color: #3E94D1;
+}
+.active {
+  background-color: #24577B;
+}
+
+/* Aggiunge un bordo bianco a tutte le caselle, tranne che all' ultima(last-child) */
+.c2 li {
+  border-right: 1px solid #ffffff;
+}
+.c2 li:last-child {
+  border-right: none;
+}
+/*Bordo anche a sinistra della prima*/
+.c2 li:first-child{
+    border-left: 1px solid #ffffff;
+}
+
+} 
+    
+
+ 
+
+ 
+  
+
+
+/*color scheme design link 
+http://colorschemedesigner.com/csd-3.5/#3w11Tw0w0w0w0*/
+   
+  
+ 
+ 
+ 
+  

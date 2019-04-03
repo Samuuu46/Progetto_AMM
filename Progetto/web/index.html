@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Progetto-HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Samuele Cau">
+        <meta name="keywords" content="FPW, Progetto, Unica, HTML, Java, CSS">
+        <meta name="description" content="Homepage del progetto di FPW">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <link rel="stylesheet" href="M1/style.css" type="text/css"/>
+        <link rel="stylesheet" href="M1/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Bangers|Gloria+Hallelujah|Luckiest+Guy|Orbitron|Roboto|Special+Elite" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arbutus|Lora" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container" role="main">
+            <nav class="c1">
+                <div class="title">
+                    <h1>Free Peer RevieW</h1>
+                </div>
+                <h2>Ciao, Utente</h2>
+                <!--/*Qui tasto logout*/-->
+                
+                <h3>I miei Articoli</h3>
+                            <ul>
+                                <li><a href="articoli.html">Articoli</a></li>
+                                <li><a href="valutazione">Valutazione</a></li>
+                                <li><a href="profilo.html">Profilo</a></li>
+                            </ul>
+                
+                <h3>Da valutare</h3>
+                            <ul>
+                                <li><a href="articoli.html">Articoli</a></li>
+                                <li><a href="valutazione">Valutazione</a></li>
+                                <li><a href="profilo.html">Profilo</a></li>
+                            </ul>
+            </nav>
+            
+            <div class="c4">
+                <nav class="c2">
+                    <ul>
+                        <li><a href="articoli.html">Articoli</a></li>
+                        <li><a href="valutazione">Valutazione</a></li>
+                        <li><a href="profilo.html">Profilo</a></li>
+                        <li class="active" style="float:right"><a href="index.html">Home</a></li>
+                    </ul>
+                    
+                </nav>
+                <div class="c3">
+                    <form action="index.html" method="post">
+                <label for="id_nomeutente">Nome: </label>
+                <input type="text" name="NomeUtente" id="id_nomeutente" value="Ponedi"/>
+                <br/>
+                <label class="importante" for="id_username">Username: </label>
+                <input type="text" name="userName" id="id_username" value="username"/>
+                <br/>
+                <label class="importante" for="id_password">Password: </label>
+                <input type="password" name="password" id="id_password" value="username"/>
+                <br/>
+                <label for="scrittore">Scrittore: </label>
+                <input type="radio" name="tipo utente" id="scrittore" value="scrittore">
+                <br/>
+                <label for="autore">Autore: </label>
+                <input type="radio" name="tipo utente" id="autore" value="autore">
+                <br/>
+                
+                <p>Colore preferito:
+                <select name="colore">
+                    <option value="red">Rosso</option>
+                    <option value="blue">Blu</option>
+                    <option value="green">Verde</option>
+                    <option value="yellow">Giallo</option>
+                </select>
+                </p>
+                
+                <br/>
+                <input type="submit" value="Submit"/>
+            </form>
+            
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </div>
+    </body>
+</html>
